@@ -134,7 +134,7 @@
     }
 
     .product-card {
-        background-color: #fff;
+        background-color: #e1bed2;
         border: 1px solid #ff00d0;
         padding: 15px;
         border-radius: 12px;
@@ -193,4 +193,5 @@
         .product-grid {
             grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         }
+
     }
