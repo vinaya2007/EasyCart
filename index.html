@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>🛒EasyCart</title>
+</head>
+
+<body>
+    <div id="splash">
+        <h1>🛒EasyCart</h1>
+    </div>
+
+    <div class="controls">
+
+        <div class="logo">
+            <span>🛒EasyCart</span>
+        </div>
+
+        <h1>Our Products</h1>
+        <p>Every Branded Products, all within your budget</p>
+
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="electronics">Electronics</option>
+            <option value="clothing">Clothing</option>
+            <option value="Accessories">Accessories</option>
+            <option value="Footwears">Footwears</option>
+            <option value="Jewellery">Jewellery</option>
+            <option value="Stationaries">Stationaries</option>
+        </select>
+
+
+        <select id="sortBy">
+            <option value="default">Sort By</option>
+            <option value="lowToHigh">Price: Low to High</option>
+            <option value="highToLow">Price: High to Low</option>
+            <option value="az">Alphabetical (A-Z)</option>
+        </select>
+    </div>
+
+    <div class="product-grid" id="productList">
+        <!-- Products will be inserted here by JavaScript -->
+    </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
